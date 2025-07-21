@@ -1,8 +1,9 @@
 // src/App.jsx
 import { useState } from 'react';
-import { Menu } from 'lucide-react';
+import { Github, Menu } from 'lucide-react';
 import { SidebarVariant1 } from './components/sidebar/variant1';
-// import { Card } from './Card';
+import  GlassButtonVariant1  from './components/button/Variant1';
+import { FaMoon } from "react-icons/fa";
 
 import CardVariant1 from './components/card/Variant1';
 
@@ -21,6 +22,9 @@ export default function App() {
   const tags = ["Top Rated", "5 Day stay"];
 
 
+  const handleTextClick = () => {
+    console.log('Text button clicked! ✨');
+  };
   return (
     <div className="md:p-8 min-h-screen">
       {/* Mobile Toggle Button */}
@@ -34,9 +38,15 @@ export default function App() {
       <SidebarVariant1 isOpen={isOpen} setIsOpen={setIsOpen} />
 {/* TEST1 */}
       {/* You can add your main content here */}
-      <main className="md:ml-[320px] transition-all grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 duration-300 p-8">
+      <main className="md:ml-[320px] transition-all flex flex-col gap-6 duration-300 p-8">
   <CardVariant1 images={images} title={title} description={description} price={price} tags={tags} />
+  <GlassButtonVariant1 onClick={handleTextClick}>
+  <Github size={30} className="text-gray-300" />
+        </GlassButtonVariant1>
+    
  </main>
+
+
 
     </div>
   );
