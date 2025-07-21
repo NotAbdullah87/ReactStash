@@ -1,12 +1,56 @@
-# React + Vite
+# ReactStash
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ReactStash is a growing collection of **free and reusable React & Next.js components**. Simple, clean, and easy to plug into your own projects.
 
-Currently, two official plugins are available:
+🎯 Perfect for developers who want to save time and skip writing UI from scratch.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ✅ Ready-to-use React + Tailwind CSS components
+- 🎨 Clean and modern UI
+- ⚡ Easy to copy and customize
+- 🚀 Built with **Next.js** and **Framer Motion**
+- 📦 More components coming soon!
+
+---
+
+## 📁 Components
+
+### 1. Sidebar (Variant 1)
+> A slick, animated sidebar with nested menus, profile section, and support for Framer Motion.
+
+<img width="1918" height="938" alt="image" src="https://github.com/user-attachments/assets/1dbc7e58-d38d-4cb7-8da7-9afa9d6d63c1" />
+
+
+---
+
+### 2. Card (Variant 1)
+> A responsive card layout with blur effect that supports image, title, tags, and pricing.
+
+<img width="424" height="610" alt="image" src="https://github.com/user-attachments/assets/3723cbc7-11df-4055-8aa1-7096c394fb9d" />
+
+
+---
+
+## 🛠️ Tech Stack
+
+- **React** (with Hooks)
+- **Next.js**
+- **Tailwind CSS**
+- **Framer Motion**
+- **Lucide Icons**
+
+
+---
+
+## 📥 Installation
+
+Clone the repo:
+
+```bash
+git clone git@github.com:NotAbdullah87/ReactStash.git
+cd ReactStash
+npm install
+npm run dev
