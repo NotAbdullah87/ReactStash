@@ -8,7 +8,7 @@ import CardVariant1 from './components/card/Variant1';
 
 export default function App() {
   const [isOpen, setIsOpen] = useState(true);
-  
+
   const images = [
     "https://a0.muscache.com/im/pictures/monet/Luxury-43353638/original/603bb794-bdfe-49ae-bf8a-9765e0307b0b",
     "https://a0.muscache.com/im/pictures/0f1d3850-0c9a-4930-86b2-4467619714f5.jpg?im_w=1920",
@@ -36,9 +36,7 @@ export default function App() {
       {/* You can add your main content here */}
       <main className="md:ml-[320px] transition-all grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 duration-300 p-8">
   <CardVariant1 images={images} title={title} description={description} price={price} tags={tags} />
-  <CardVariant1 images={images} title={title} description={description} price={price} tags={tags} />
-  <CardVariant1 images={images} title={title} description={description} price={price} tags={tags} />
-</main>
+ </main>
 
     </div>
   );
