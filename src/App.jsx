@@ -32,7 +32,7 @@ export default function App() {
       </button>
 
       <SidebarVariant1 isOpen={isOpen} setIsOpen={setIsOpen} />
-{/* TEST */}
+{/* TEST1 */}
       {/* You can add your main content here */}
       <main className="md:ml-[320px] transition-all grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 duration-300 p-8">
   <CardVariant1 images={images} title={title} description={description} price={price} tags={tags} />
