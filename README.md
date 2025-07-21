@@ -1,4 +1,5 @@
 # ReactStash
+<img width="1087" height="604" alt="SubSync" src="https://github.com/user-attachments/assets/f2f1b6f1-a92c-4005-843e-061417fd6e1b" />
 
 ReactStash is a growing collection of **free and reusable React & Next.js components**. Simple, clean, and easy to plug into your own projects.
 
