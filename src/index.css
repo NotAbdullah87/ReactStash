@@ -5,9 +5,17 @@
 @tailwind components;
 @tailwind utilities;
 
+:root{
+  --primary-color: #e42a2a;
+  --secondary-color: #222;
+  --tertiary-color: #333;
+  --quaternary-color: #444;
+  --quinary-color: #555;
+}
+
 body {
  
-  background-color: #111;
+  background-color: var(--primary-color);
   background-image: url('https://wallpapercave.com/wp/wp10209280.jpg'); 
   background-size: cover;
   background-position: center;

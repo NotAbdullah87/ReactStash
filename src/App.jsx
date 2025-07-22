@@ -6,6 +6,7 @@ import  GlassButtonVariant1  from './components/button/Variant1';
 import { FaMoon } from "react-icons/fa";
 
 import CardVariant1 from './components/card/Variant1';
+import BottomNavbar from './components/navbar/Variant1';
 
 export default function App() {
   const [isOpen, setIsOpen] = useState(true);
@@ -36,7 +37,7 @@ export default function App() {
       </button>
 
       <SidebarVariant1 isOpen={isOpen} setIsOpen={setIsOpen} />
-{/* TEST1 */}
+
       {/* You can add your main content here */}
       <main className="md:ml-[320px] transition-all flex flex-col gap-6 duration-300 p-8">
   <CardVariant1 images={images} title={title} description={description} price={price} tags={tags} />
@@ -44,6 +45,9 @@ export default function App() {
   <Github size={30} className="text-gray-300" />
         </GlassButtonVariant1>
     
+    <BottomNavbar />
+ 
+ 
  </main>
 
 
