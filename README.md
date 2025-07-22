@@ -35,13 +35,23 @@ ReactStash is a growing collection of **free and reusable React & Next.js compon
 
 ---
 
-### 1. Button (Variant 1)
+### 3. Button (Variant 1)
 > A Glassmorphism Styled animated button with hover effect 
 
 ![bandicam2025-07-2203-23-52-571-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/8dfc7e21-db6f-486d-b4cb-72b2b791c74e)
 
 
 ---
+
+
+### 4. Navbar (Variant 1)
+> A Fully interactive bottom navbar
+
+![bandicam2025-07-2222-51-59-271-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/d9dbf064-bd78-4bd2-95e8-15cfe75cee7e)
+
+
+---
+
 ## 🛠️ Tech Stack
 
 - **React** (with Hooks)
